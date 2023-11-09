@@ -6,11 +6,11 @@ package br.edu.ifnmg.projetodoseminario;
 
 /**
  *
- * @author ketsu
+ * @author keni
  */
 public class ProjetoDoSeminario {
 
     public static void main(String[] args) {
-        System.out.println("Hello World!");
+        System.out.println("Ewwo :3");
     }
 }

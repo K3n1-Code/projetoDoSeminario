@@ -6,13 +6,14 @@ package br.edu.ifnmg.projetodoseminario;
 
 /**
  *
- * @author ketsu
+ * @author keni
  */
 public class Class1 {
     
+    int num;
     
-    public int Action1(){
-        return 0;
+    public int Action1(int number){
+        return ((int)(Math.pow((number+num)/2.0f, 2)));
     }
     
     

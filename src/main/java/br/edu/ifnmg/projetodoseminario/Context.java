@@ -6,7 +6,7 @@ package br.edu.ifnmg.projetodoseminario;
 
 /**
  *
- * @author ketsu
+ * @author keni
  */
 public class Context {
     private State state;

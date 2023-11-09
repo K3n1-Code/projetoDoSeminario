@@ -6,11 +6,14 @@ package br.edu.ifnmg.projetodoseminario;
 
 /**
  *
- * @author ketsu
+ * @author keni
  */
 public class Class2 {
-    public int Action2(){
-        return 2;
+    
+    int num;
+    
+    public int Action2(int number){
+        return (number + num)*(number-num);
     }
 
 }

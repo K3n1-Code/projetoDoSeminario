@@ -6,14 +6,18 @@ package br.edu.ifnmg.projetodoseminario;
 
 /**
  *
- * @author ketsu
+ * @author keni
  */
 public class Mediator {
     Class1 class1;
     Class2 class2;
     
     
-    public void mediate(){
-    
+    public void mediate(Object mediated){
+        if(mediated.getClass()==Class1.class){
+            class1.num=class2.Action2(class1.num);
+        }else if(mediated.getClass()==Class2.class){
+            class2.num=class1.Action1(class2.num);
+        }
     }
 }

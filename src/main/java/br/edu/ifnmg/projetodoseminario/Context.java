@@ -24,7 +24,7 @@ public class Context {
         return state;
     }
     
-    public void switchState(){
+    public void setState(){
         if(state.getClass()==StateOne.class){
             state=new StateSecond(this);
         }

@@ -11,6 +11,12 @@ package br.edu.ifnmg.projetodoseminario;
 public class ProjetoDoSeminario {
 
     public static void main(String[] args) {
-        System.out.println("Ewwo :3");
+        Context con = new Context(5);
+        
+        con.getState().doAction();
+        con.setState();
+        con.getState().doAction();
+        
+        
     }
 }

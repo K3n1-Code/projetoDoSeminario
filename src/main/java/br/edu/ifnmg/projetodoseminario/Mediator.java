@@ -12,6 +12,10 @@ public class Mediator {
     Class1 class1;
     Class2 class2;
     
+    public Mediator(Class1 c1, Class2 c2){
+        class1=c1;
+        class2=c2;
+    }
     
     public void mediate(Object mediated){
         if(mediated.getClass()==Class1.class){
